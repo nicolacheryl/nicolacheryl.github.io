@@ -1,0 +1,19 @@
+body{
+	padding-top: 70px;
+}
+.header{
+	height: 400px;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+#topnavbar{
+	margin: 0;
+}
+
+#topnavbar.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+}
