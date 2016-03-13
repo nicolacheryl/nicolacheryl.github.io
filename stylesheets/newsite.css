@@ -1,19 +1,30 @@
-body{
-	padding-top: 70px;
+@media (max-width: 1000px){
+	navbar{
+
+	}
 }
-.header{
-	height: 400px;
-	margin-bottom: 0;
-	text-align: center;
+
+.navbar-brand{
+	padding-bottom: 250px;
 }
 
 #topnavbar{
 	margin: 0;
+	font-family: 'Spinnaker', sans-serif;
+	background-color: rgba(0, 0, 0, 0);
 }
 
-#topnavbar.affix {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index:10;
+.center-block{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+li{
+	color: black;
+}
+
+
+.banner{
+	background-size: cover;
 }
