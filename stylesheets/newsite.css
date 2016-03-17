@@ -1,18 +1,38 @@
-@media (max-width: 1000px){
-	navbar{
-
-	}
+body{
+	position: relative;
 }
 
-.navbar-brand{
-	padding-bottom: 250px;
+.page-header{
+	padding-bottom: 0;
 }
 
 #topnavbar{
 	margin: 0;
-	font-family: 'Spinnaker', sans-serif;
+	font-family: Helvetica;
+	font-size: 12px;
+	font-weight: 100;
 	background-color: rgba(0, 0, 0, 0);
+	margin-bottom: 20px;
 }
+
+#nav{
+	width: 100%;
+}
+
+#nav.affix-top{
+	position: absolute;
+	top: 0;
+	height: 50px;
+	border: 0;
+}
+
+#nav.affix{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+}
+  
 
 .center-block{
 	display: block;
@@ -20,11 +40,34 @@
 	margin-right: auto;
 }
 
-li{
+ul{
+		display: inline-block;
+		list-style-type: none;
+}
+
+.nav li{
 	color: black;
 }
 
-
-.banner{
-	background-size: cover;
+body{
+	padding-top: 10px;
 }
+
+.social{
+	display: inline-block;
+}
+
+#light-heading{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+.social-buttons ul{
+	list-style-type: none outside none;
+}
+
+.social-buttons li{
+	display: inline;
+}
+
+

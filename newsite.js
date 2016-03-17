@@ -1,6 +1,6 @@
-$('#topnavbar').affix({
-      offset: {
-        top: $('#banner').height()
-      }
-}); 
-
+$('#nav').affix({
+    offset: {
+      top: $('#image-title').height()
+    }
+  })
+});
