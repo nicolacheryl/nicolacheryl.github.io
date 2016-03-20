@@ -1,6 +1,3 @@
-$('#nav').affix({
-    offset: {
-      top: $('#image-title').height()
-    }
-  })
-});
+  $('#box').hover(function() {
+    $(this).toggleClass('show-project');
+  });

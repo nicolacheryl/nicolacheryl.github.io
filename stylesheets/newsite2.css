@@ -73,20 +73,16 @@ i{
 
 #box{
 	min-height: 400px;
-	background-size: cover;
 	background-attachment: relative;
 	position: relative;
 	padding: 0;
 	margin: 0;
-	transition-timing-function: background-image ease-in;
-	-webkit-transition-timing-function: background-image ease-in;
-
 }
 
 #box h3{
 	color: rgba(0, 0, 0, 1);
 	background-color: white;
-	position: absolute;
+	position: relative;
 	height: 50px;
 	width: 100%;
 	margin: 0;
@@ -95,18 +91,28 @@ i{
 	z-index: 2;
 }
 
+#box img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+	opacity: 0.6;
+	background-size: cover;
+
+
+}
+
 .philosophy{
-	background-image: url('../images/philosophy.jpg');
+	position: relative;
+	overflow: hidden;
 }
 
 .wellbeing{
-	background-image: url('../images/wellbeing.jpg');
+	position: relative;
+	overflow: hidden;
 }
 
-.show-project{
-	background-image: none;
-	background-color: white;
-}
 
 /*BLOG*/
 
