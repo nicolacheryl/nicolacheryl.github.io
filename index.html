@@ -16,7 +16,7 @@
   
   <link href="bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="http://www.getbootstrap.com/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-  <link rel="stylesheet" href="stylesheets/newsite.css">
+  <link rel="stylesheet" href="stylesheets/newsite2.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -60,12 +60,12 @@
 <div class='container'>
 <div class='row 1'>
   <div class='col-sm-6 philosophy' id='box'>
-  <div class='show-project'>
     <h3>The Philosophy Project</h3>
-  </div>
+    <img src='images/philosophy.jpg'>
   </div>
   <div class='col-sm-6 wellbeing' id='box'>
     <h3>The Wellbeing Project</h3>
+    <img src='images/wellbeing.jpg'>
   </div>
 </div>
 </div>
@@ -122,7 +122,9 @@
 <script src="newsite.js"></script>
 
 <script>
-
+  $('#box').hover(function() {
+    $(this).toggleClass('show-project');
+  });
 </script>
 
 </body>
