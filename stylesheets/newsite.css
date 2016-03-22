@@ -19,6 +19,7 @@ p{
 	}
 }
 
+
 #topnavbar{
 	margin-top: 10px;
 	font-family: Helvetica;
@@ -26,7 +27,7 @@ p{
 	font-weight: 100;
 	background-color: rgba(0, 0, 0, 0);
 	margin-bottom: 20px;
-	border: none;
+	border-color: none;
 }
 
 .navbar a:hover{
@@ -55,8 +56,6 @@ p{
 
 /*HOMEPAGE*/
 
-
-
 #light-heading{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
@@ -70,6 +69,7 @@ i{
 }
 
 
+
 .box{
 	min-height: 400px;
 	background-attachment: relative;
@@ -79,6 +79,7 @@ i{
 	overflow: hidden;
 	margin-bottom: 10px;
 }
+
 
 .box h3{
 	color: white;
@@ -100,10 +101,7 @@ i{
 	height: auto;
 	opacity: 0.6;
 	background-size: cover;
-}
-
-.social-buttons{
-	display: inline-block;
+	opacity: 0.7;
 }
 
 
@@ -127,3 +125,4 @@ i{
 	border-style: groove;
 }
 
+>>>>>>> master
