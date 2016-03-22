@@ -11,17 +11,13 @@ p{
 .page-header{
 	margin-bottom: 0;
 	border-style: none;
-<<<<<<< HEAD
-=======
 }
 
 @media (max-width: 768px){
 	#topnavbar{
 		border-style: none;
 	}
->>>>>>> master
 }
-
 
 #topnavbar{
 	margin-top: 10px;
@@ -30,15 +26,7 @@ p{
 	font-weight: 100;
 	background-color: rgba(0, 0, 0, 0);
 	margin-bottom: 20px;
-<<<<<<< HEAD
-	border-color: black;
-}
-
-#navbar>a{
-	color: black;
-=======
 	border: none;
->>>>>>> master
 }
 
 .navbar a:hover{
@@ -67,9 +55,9 @@ p{
 
 /*HOMEPAGE*/
 
-
-<<<<<<< HEAD
-=======
+.social{
+	display: inline-block;
+}
 
 #light-heading{
 	font-family: 'Open Sans', sans-serif;
@@ -82,24 +70,18 @@ i{
 	padding: 10px;
 	background-color: rgba(192,192,192,0.6);
 }
->>>>>>> master
 
-
-.box{
+#box{
 	min-height: 400px;
 	background-attachment: relative;
 	position: relative;
 	padding: 0;
 	margin: 0;
-	overflow: hidden;
-	margin-bottom: 10px;
 }
 
-<<<<<<< HEAD
-=======
-.box h3{
-	color: white;
-	background-color: rgba(192,192,192,1);
+#box h3{
+	color: rgba(0, 0, 0, 1);
+	background-color: white;
 	position: relative;
 	height: 50px;
 	width: 100%;
@@ -108,9 +90,8 @@ i{
 	padding-left: 7px;
 	z-index: 2;
 }
->>>>>>> master
 
-.box img{
+#box img{
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -118,19 +99,20 @@ i{
 	height: auto;
 	opacity: 0.6;
 	background-size: cover;
+
+
 }
 
-.social-buttons{
-	display: inline-block;
+.philosophy{
+	position: relative;
+	overflow: hidden;
 }
 
-<<<<<<< HEAD
-.social-buttons li{
-	list-style-type: none outside none;
-	display: inline;
+.wellbeing{
+	position: relative;
+	overflow: hidden;
 }
 
-=======
 
 /*BLOG*/
 
@@ -152,4 +134,3 @@ i{
 	border-style: groove;
 }
 
->>>>>>> master
