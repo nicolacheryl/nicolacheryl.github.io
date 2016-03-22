@@ -33,26 +33,6 @@ p{
 	font-weight: bold;
 }
 
-.navbar-nav.nav-justified>li{
-	float: none;
-}
-
-#nav.affix-top{
-	position: absolute;
-	top: 0;
-	height: 50px;
-	border: 0;
-}
-
-#nav.affix{
-	position: fixed;
-	top: 0;
-	width: 100%;
-	z-index: 10;
-}
- 
-]
-
 /*HOMEPAGE*/
 
 
