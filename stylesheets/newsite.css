@@ -9,7 +9,7 @@ p{
 /*HEADER*/
 
 .page-header{
-	margin-bottom: 0;
+	margin-bottom: 10px;
 	border-style: none;
 }
 
@@ -20,18 +20,26 @@ p{
 }
 
 #topnavbar{
-	margin-top: 10px;
+	margin-top: 0;
 	font-family: Helvetica;
 	font-size: 14px;
 	font-weight: 100;
-	background-color: rgba(0, 0, 0, 0);
+	background-color: white;
 	margin-bottom: 20px;
 	border: none;
+	z-index: 3;
 }
 
 .navbar a:hover{
 	font-weight: bold;
 }
+
+#topnavbar.affix{
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
 
 /*HOMEPAGE*/
 
