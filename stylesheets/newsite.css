@@ -9,7 +9,7 @@ p{
 /*HEADER*/
 
 .page-header{
-	margin-bottom: 0;
+	margin-bottom: 10px;
 	border-style: none;
 }
 
@@ -20,13 +20,14 @@ p{
 }
 
 #topnavbar{
-	margin-top: 10px;
+	margin-top: 0;
 	font-family: Helvetica;
 	font-size: 14px;
 	font-weight: 100;
-	background-color: rgba(0, 0, 0, 0);
+	background-color: white;
 	margin-bottom: 20px;
-	border-color: none;
+	border: none;
+	z-index: 3;
 }
 
 .navbar a:hover{
@@ -39,7 +40,10 @@ p{
 	top: 0;
 }
 
+
 /*HOMEPAGE*/
+
+
 
 #light-heading{
 	font-family: 'Open Sans', sans-serif;
@@ -54,7 +58,6 @@ i{
 }
 
 
-
 .box{
 	min-height: 400px;
 	background-attachment: relative;
@@ -64,7 +67,6 @@ i{
 	overflow: hidden;
 	margin-bottom: 10px;
 }
-
 
 .box h3{
 	color: white;
@@ -88,6 +90,10 @@ i{
 	background-size: cover;
 }
 
+.social-buttons{
+	display: inline-block;
+}
+
 
 /*BLOG*/
 
@@ -109,4 +115,3 @@ i{
 	border-style: groove;
 }
 
->>>>>>> master
