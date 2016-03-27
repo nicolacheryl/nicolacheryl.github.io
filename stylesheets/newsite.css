@@ -19,7 +19,6 @@ p{
 	}
 }
 
-
 #topnavbar{
 	margin-top: 10px;
 	font-family: Helvetica;
@@ -32,6 +31,12 @@ p{
 
 .navbar a:hover{
 	font-weight: bold;
+}
+
+#topnavbar.affix{
+	position: fixed;
+	width: 100%;
+	top: 0;
 }
 
 /*HOMEPAGE*/
@@ -81,7 +86,6 @@ i{
 	height: auto;
 	opacity: 0.6;
 	background-size: cover;
-	opacity: 0.7;
 }
 
 
